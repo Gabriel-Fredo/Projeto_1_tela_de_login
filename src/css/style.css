@@ -62,7 +62,8 @@ form {
 }
 
 .label-form {
-  margin-top: 15px;
+  font-family: "Martian Mono", monospace;
+  margin: 15px 0 5px 0;
 }
 
 button {
@@ -91,6 +92,38 @@ p {
     color: #f5cb5c;
 }
 
+
+
 a {
     color: #e8eddf;
+}
+
+footer {
+  background-color: #242423;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+#nav1 {
+  margin-right: 20px;
+  display: flex;
+  gap: 15px;
+  font-family: "Martian Mono", monospace;
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+}
+
+#nav1 a {
+  text-decoration: none;
+  color: #edf2ff;
+  padding: 4px;
+  text-shadow: #0c0c0c 1px 1px 2px;
+}
+
+#nav1 a:hover {
+  background-color: #edf2ff;
+  border-radius: 5px;
+  color: #242423;
+  transition: 0.5s;
 }
